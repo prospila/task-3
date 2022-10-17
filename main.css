@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar  */
+
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.nav-logo{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0 10px;
+}
+
+/* hero section  */
+
+.hero {
+    background: url(images/shipping-engineer-25058785.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px;
+}
+
+.hero .details {
+    font-size: 1.4rem;
+}
+.hero button{
+    padding: 10px 10px;
+}
+
+/* how it work section  */
+
+.work {
+    padding: 40px;
+}
+
+.work .divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 60px;
+}
+
+.work .divider .line {
+    width: 90%;
+    background: grey;
+    height: 1px;
+    position: absolute;
+    z-index: -1;
+}
+
+.work .divider .circles{
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.work .items-div {
+    display: flex;  
+    margin-top: 30px;
+}
+
+.work .items-div .item{
+    text-align: center;
+}
+
+.work .items-div .item i {
+    font-size: 4rem;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: white;
+}
+.big{
+    background-color: skyblue;
+    height: 400px;
+    width: auto;
+    margin-top: 30px;
+    object-position: center;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.images-2{
+    /* margin: 30px; */
+    padding-left: 30px;
+    height: 400px;
+    width: 250px;
+    
+}
+.images-3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 400px;
+    margin-left: 400px;
+    padding-left: 20px;
+}
+.img-4{
+    height: 400px;
+    width: 200px;
+    position: relative;
+    bottom: 600px;
+    margin-left: 230px;
+    padding-left:30px;
+}
+.img-5{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 1000px;
+    bottom: 980px;
+}
+.img-6{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 900px;
+    bottom: 1000px;
+}
+
+.img-text{
+    position: relative;
+    bottom: 1400px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:black;
+    margin-left: 700px;
+}
+/* down boxes */
+.object{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.object .box-1 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    padding: 30px 30px;
+}
+
+.object .box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    padding: 30px 30px;
+}
+.object .box-3 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+     padding: 30px 30px;
+}
+.object .box-1 i{
+    padding-left: 10px;
+    border-radius:50%;
+    background-color: transparent;
+    /* border: 2px solid black; */
+    justify-content: center;
+    font-size: 2rem;
+    left: 50px;
+
+}
+.object .box-2 i{
+    /* padding-left: 10px; */
+    border-radius:50%;
+    background-color: transparent;
+    /* border: 2px solid black; */
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 2rem;
+}
+.object .box-3 i{
+    padding-left: 10px;
+    border-radius:50%;
+    background-color: transparent;
+    /* border: 2px solid black; */
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 2rem;
+}
+
+
+
+.woman{
+    background-color: black;
+    margin-top: 30px;
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    /* display: flex;s */
+}
+.woman .woman-1{
+    background-color: skyblue;
+    height: 250px;
+    margin: 30px 30px;
+    position: relative;
+    bottom: -30px;
+}
+.woman .woman-2{
+    background-color: gold;
+    height: 230px;
+    width: 80px;
+    position: relative;
+    left: 200px;
+    bottom: -10px;
+}
+.woman .w-img{
+    border-radius: 50%;
+    position: relative;
+    bottom: -20px;
+    margin-right: 200px;
+    height: 150px;
+    width: 200px;
+    left: -40px;
+}
+.woman .star {
+  width: 200px;
+}
+.woman .star i{
+    color: gold;
+    left: 200px;
+    position: relative;
+    top: -100px;
+
+}
+.woman .star p{
+    left: 200px;
+    position: relative;
+    top: -100px;
+    font-size: 1.2rem;
+    font-weight: 1rem;
+}
+.woman .star h4{
+    top: -100px;
+    left: 200px;
+    position: relative;
+}
+/* navbar  */
+
+.navbar-2{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.nav-logo{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0 10px;
+}
+.nav-links i{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 0 10px;
+    background-color: gold;
+    color: white;
+}
+
+.con {
+    display: flex;  
+    margin-top: 30px;
+    margin: 60px;
+    gap: 10px;
+}
+
+.con .contact{
+    text-align: center;
+}
+.home{
+    margin-left: 700px;
+    justify-content: space-between;
+}
+/* down part */
+.down{
+    height: 100px;
+    width: 500px;
+    background-color: skyblue;
+    margin-top:300px ;
+     display: flex;
+     padding: 30px 30px;
+
+}
+.down .copy{
+    margin-right: 100px;
+    width: 200px;
+    position: relative;
+    background-color: red;
+}
+/* navbar-3 */
+
+.navbar-3{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    top: 900px;
+}
+
+.nav-copy{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-priv {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0 10px;
+}
